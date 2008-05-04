@@ -1,0 +1,14 @@
+## Interface: 20400
+
+## Title: ButtonFacade: Gears
+## Notes: Gear skins for Button Facade.
+## Version: 2.4.2
+
+## Author: StormFX
+## X-eMail: stormfx@gmail.com
+## X-Credits: JJ Sheets for Button Facade and the author of the gear textures.
+
+## X-Category: Action Bars
+## OptionalDeps: LibButtonFacade, ButtonFacade
+
+Skins.lua
