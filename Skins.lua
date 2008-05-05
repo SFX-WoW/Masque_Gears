@@ -34,12 +34,13 @@ LibButtonFacade:AddSkin("Gears",{
 		Height = 24,
 	},
 	AutoCast = {
-		Width = 24,
-		Height = 24,
+		Width = 16,
+		Height = 16,
+		ModelScale = .5,
 	},
 	AutoCastable = {
-		Width = 40,
-		Height = 40,
+		Width = 36,
+		Height = 36,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Normal = {
@@ -75,18 +76,18 @@ LibButtonFacade:AddSkin("Gears",{
 		Width = 40,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = 7,
+		OffsetY = 8,
 	},
 	Count = {
 		Width = 40,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = -7,
+		OffsetY = -8,
 	},
 	Name = {
 		Width = 40,
 		Height = 10,
-		OffsetY = -7,
+		OffsetY = -8,
 	},
 	-- Skin data end.
 
