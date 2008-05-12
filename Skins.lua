@@ -1,4 +1,4 @@
---[[ Gears for ButtonFacade v2.4.2 ]]
+--[[ Gears for ButtonFacade ]]
 
 local LibButtonFacade = LibStub("LibButtonFacade",true)
 if not LibButtonFacade then
@@ -12,22 +12,18 @@ LibButtonFacade:AddSkin("Gears",{
 	Backdrop = {
 		Width = 40,
 		Height = 40,
+		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 24,
 		Height = 24,
 	},
-	Border = {
-		Width = 40,
-		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Equip]],
-		BlendMode = "ADD",
-	},
 	Flash = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Flash]],
+		Color = {1, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Overlay]],
 	},
 	Cooldown = {
 		Width = 24,
@@ -38,21 +34,25 @@ LibButtonFacade:AddSkin("Gears",{
 		Height = 16,
 		ModelScale = .5,
 	},
-	AutoCastable = {
-		Width = 36,
-		Height = 36,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-	},
 	Normal = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Normal]],
 		Static = true,
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Normal]],
 	},
 	Pushed = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Pushed]],
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Overlay]],
+	},
+	Border = {
+		Width = 40,
+		Height = 40,
+		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Border]],
 	},
 	Disabled = {
 		Hide = true,
@@ -60,17 +60,24 @@ LibButtonFacade:AddSkin("Gears",{
 	Checked = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Checked]],
 		BlendMode = "ADD",
+		Color = {0, 0.75, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Border]],
 	},
-	Gloss = {
-		Hide = true,
+	AutoCastable = {
+		Width = 36,
+		Height = 36,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Highlight = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Highlight]],
 		BlendMode = "ADD",
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Highlight]],
+	},
+	Gloss = {
+		Hide = true,
 	},
 	HotKey = {
 		Width = 40,
@@ -101,8 +108,9 @@ LibButtonFacade:AddSkin("Gears: Black",{
 	Normal = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Black]],
 		Static = true,
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Black]],
 	},
 	-- Skin data end.
 
@@ -116,10 +124,10 @@ LibButtonFacade:AddSkin("Gears: Spark",{
 	Normal = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Spark]],
 		Static = true,
+		Color = {1, 1, 1, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Spark]],
 	},
 	-- Skin data end.
 
 },true)
-
