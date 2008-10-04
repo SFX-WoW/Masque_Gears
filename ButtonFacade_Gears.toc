@@ -2,14 +2,13 @@
 
 ## Title: ButtonFacade: |cffff8000Gears|r
 ## Notes: Gear skins for Button Facade.
-## Version: 2.4.2
+## Version: 2.4.3
 
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com
-## X-AceForum: 13279
 ## X-RelSite-WoWI: 8918
-## X-Credits: JJ Sheets for Button Facade. Whoever the gear author is...
+## X-Credits: JJSheets, etc.
 
 ## X-Category: Action Bars
 ## OptionalDeps: LibButtonFacade, ButtonFacade

@@ -1,1 +1,4 @@
 package-as: ButtonFacade_Gears
+
+required-dependencies:
+	- buttonfacade
