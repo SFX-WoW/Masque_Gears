@@ -32,7 +32,7 @@ LibButtonFacade:AddSkin("Gears",{
 	AutoCast = {
 		Width = 16,
 		Height = 16,
-		ModelScale = .5,
+		AboveNormal = true;
 	},
 	Normal = {
 		Width = 40,
