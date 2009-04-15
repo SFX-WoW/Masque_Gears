@@ -1,12 +1,12 @@
---[[ Gears skin for ButtonFacade ]]
+--[[ Gears @project-version@ ]]
 
-local LibButtonFacade = LibStub("LibButtonFacade",true)
-if not LibButtonFacade then
+local LBF = LibStub("LibButtonFacade", true)
+if not LBF then
 	return
 end
 
 -- Gears
-LibButtonFacade:AddSkin("Gears",{
+LBF:AddSkin("Gears", {
 
 	-- Skin data start.
 	Backdrop = {
@@ -32,7 +32,7 @@ LibButtonFacade:AddSkin("Gears",{
 	AutoCast = {
 		Width = 16,
 		Height = 16,
-		AboveNormal = true;
+		AboveNormal = true,
 	},
 	Normal = {
 		Width = 40,
@@ -98,10 +98,10 @@ LibButtonFacade:AddSkin("Gears",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Gears: Black
-LibButtonFacade:AddSkin("Gears: Black",{
+LBF:AddSkin("Gears: Black", {
 
 	-- Skin data start.
 	Template = "Gears",
@@ -114,10 +114,10 @@ LibButtonFacade:AddSkin("Gears: Black",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Gears: Spark
-LibButtonFacade:AddSkin("Gears: Spark",{
+LBF:AddSkin("Gears: Spark", {
 
 	-- Skin data start.
 	Template = "Gears",
@@ -130,4 +130,4 @@ LibButtonFacade:AddSkin("Gears: Spark",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
