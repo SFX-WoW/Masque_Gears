@@ -5,8 +5,8 @@
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_gears
-## X-Category: Action Bars
-## X-Credits: JJ Sheets, etc.
-## OptionalDeps: LibButtonFacade, ButtonFacade
+## X-Category: Interface Enhancements
+## X-WoWI-ID: 8918
+## Dependencies: ButtonFacade
 
 Skins.lua

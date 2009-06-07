@@ -1,4 +1,6 @@
 package-as: ButtonFacade_Gears
 
 required-dependencies:
-	- buttonfacade
+   - buttonfacade
+
+license-output: License.txt
