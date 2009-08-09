@@ -1,7 +1,7 @@
-## Interface: 30100
+## Interface: 30200
 ## Title: ButtonFacade: |cffff8000Gears|r
-## Version: 3.1.@project-revision@
-## Notes: Gear skins for Button Facade.
+## Version: 3.2.@project-revision@
+## Notes: Gear skins for ButtonFacade.
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_gears
