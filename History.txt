@@ -1,8 +1,9 @@
 Release History
 
-3.3.49
+3.3.50
 
 - Equip border color.
+- Code optimization.
 
 3.3.47
 
