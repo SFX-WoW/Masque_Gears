@@ -52,7 +52,6 @@ LBF:AddSkin("Gears", {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Border]],
 	},
 	Highlight = {
