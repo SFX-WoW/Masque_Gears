@@ -1,6 +1,6 @@
-## Interface: 30300
+## Interface: 40000
 ## Title: ButtonFacade: |cffff8000Gears|r
-## Version: 3.3.@project-revision@
+## Version: 4.0.@project-revision@
 ## Notes: Gear skins for ButtonFacade.
 ## Notes-deDE: Gear Skins für ButtonFacade.
 ## Notes-esMX: Gear texturas para ButtonFacade.

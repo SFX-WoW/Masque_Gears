@@ -8,18 +8,11 @@ LBF:AddSkin("Gears", {
 	Backdrop = {
 		Width = 40,
 		Height = 40,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 24,
 		Height = 24,
-	},
-	Pushed = {
-		Width = 40,
-		Height = 40,
-		Color = {0, 0, 0, 0.8},
-		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Overlay]],
 	},
 	Flash = {
 		Width = 40,
@@ -31,11 +24,16 @@ LBF:AddSkin("Gears", {
 		Width = 24,
 		Height = 24,
 	},
+	Pushed = {
+		Width = 40,
+		Height = 40,
+		Color = {0, 0, 0, 0.8},
+		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Overlay]],
+	},
 	Normal = {
 		Width = 40,
 		Height = 40,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Normal]],
 	},
 	Disabled = {
@@ -54,6 +52,14 @@ LBF:AddSkin("Gears", {
 		BlendMode = "ADD",
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Border]],
 	},
+	Gloss = {
+		Hide = true,
+	},
+	AutoCastable = {
+		Width = 36,
+		Height = 36,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
+	},
 	Highlight = {
 		Width = 40,
 		Height = 40,
@@ -61,23 +67,10 @@ LBF:AddSkin("Gears", {
 		Color = {1, 1, 1, 0.8},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Highlight]],
 	},
-	AutoCast = {
-		Width = 16,
-		Height = 16,
-	},
-	AutoCastable = {
-		Width = 36,
-		Height = 36,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-	},
-	Gloss = {
-		Hide = true,
-	},
-	HotKey = {
+	Name = {
 		Width = 40,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 8,
+		OffsetY = -8,
 	},
 	Count = {
 		Width = 40,
@@ -85,10 +78,15 @@ LBF:AddSkin("Gears", {
 		OffsetX = -2,
 		OffsetY = -8,
 	},
-	Name = {
+	HotKey = {
 		Width = 40,
 		Height = 10,
-		OffsetY = -8,
+		OffsetX = -2,
+		OffsetY = 8,
+	},
+	AutoCast = {
+		Width = 16,
+		Height = 16,
 	},
 }, true)
 
@@ -99,7 +97,6 @@ LBF:AddSkin("Gears: Black", {
 		Width = 40,
 		Height = 40,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Black]],
 	},
 }, true)
@@ -111,7 +108,6 @@ LBF:AddSkin("Gears: Spark", {
 		Width = 40,
 		Height = 40,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Gears\Textures\Spark]],
 	},
 }, true)
