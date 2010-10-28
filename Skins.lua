@@ -5,6 +5,7 @@ if not LBF then return end
 
 -- Gears
 LBF:AddSkin("Gears", {
+	LBF_Version = 40000,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
@@ -70,19 +71,18 @@ LBF:AddSkin("Gears", {
 	Name = {
 		Width = 40,
 		Height = 10,
-		OffsetY = -8,
+		OffsetY = 2,
 	},
 	Count = {
 		Width = 40,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = -8,
+		OffsetY = 4,
+		FontSize = 13,
 	},
 	HotKey = {
 		Width = 40,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 8,
+		JustifyH = "CENTER",
 	},
 	AutoCast = {
 		Width = 16,

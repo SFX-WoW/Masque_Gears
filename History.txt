@@ -1,5 +1,9 @@
 Release History
 
+4.0.54
+
+- Updated for new LBF features.
+
 4.0.52
 
 - Update ToC to 4000.
