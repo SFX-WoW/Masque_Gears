@@ -1,0 +1,11 @@
+## Interface: 40200
+## Title: Masque: |cffff8000Gears|r
+## Version: 4.2.@project-revision@
+## Notes: Gear skins for Masque.
+## Author: StormFX
+## Dependencies: Masque
+## X-Website: http://www.wowace.com/projects/masque_gears
+## X-Category: Interface Enhancements
+## X-WoWI-ID: 8918
+
+Gears.lua

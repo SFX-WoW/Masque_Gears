@@ -1,7 +1,12 @@
-package-as: ButtonFacade_Gears
+package-as: Masque_Gears
 
 required-dependencies:
-   - buttonfacade
+   - masque
 
-license-output: License.txt
-manual-changelog: History.txt
+enable-nolib-creation: no
+
+license-output: Docs/License.txt
+
+manual-changelog:
+  filename: Docs/History.txt
+  markup-type: creole
