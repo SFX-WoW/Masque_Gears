@@ -88,7 +88,6 @@ MSQ:AddSkin("Gears", {
 		Width = 40,
 		Height = 10,
 		OffsetY = 4,
-		FontSize = 13,
 	},
 	HotKey = {
 		Width = 40,
