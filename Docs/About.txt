@@ -1,4 +1,4 @@
-Gears is a skin for Masque.
+Gears is a set of skins for Masque.
 
 Resources:
 
