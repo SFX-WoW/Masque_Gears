@@ -1,4 +1,8 @@
-=== v4.2.62 ===
+== v4.3.64 ==
+
+* Updated to 4.3.
+
+== v4.2.62 ==
 
 * Renamed to **Masque_Gears**.
 * Updated to Masque's API.
