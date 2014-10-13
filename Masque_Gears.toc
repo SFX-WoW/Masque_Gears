@@ -1,6 +1,6 @@
-## Interface: 50400
+## Interface: 60000
 ## Title: Masque: |cffff8000Gears|r
-## Version: 5.4.@project-revision@
+## Version: 6.0.0
 ## Notes: Gear skins for Masque.
 ## Author: StormFX
 ## Dependencies: Masque
