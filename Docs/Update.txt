@@ -1,3 +1,7 @@
-== v6.0.0 ==
+=== _v6.1.0_ ===
+
+* ToC update.
+
+=== _v6.0.0_ ===
 
 * ToC update for WoD.
