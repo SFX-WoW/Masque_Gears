@@ -15,9 +15,9 @@ if not MSQ then return end
 -- Gears
 MSQ:AddSkin("Gears", {
 	Author = "StormFX, Unknown",
-	Version = "6.1.0",
+	Version = "6.2.0",
 	Shape = "Circle",
-	Masque_Version = 60100,
+	Masque_Version = 60200,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
