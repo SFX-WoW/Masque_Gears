@@ -1,12 +1,13 @@
 --[[
+
 	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File.....: Gears.lua
-	* Revision.: @file-revision@
-	* Author...: StormFX
+	* File...: Gears.lua
+	* Date...: @file-date-iso@
+	* Hash...: @file-abbreviated-hash@
+	* Author.: StormFX
 
-	Gear Skins
 ]]
 
 local MSQ = LibStub("Masque", true)
@@ -15,7 +16,7 @@ if not MSQ then return end
 -- Gears
 MSQ:AddSkin("Gears", {
 	Author = "StormFX, Unknown",
-	Version = "6.2.0",
+	Version = "@project-version@",
 	Shape = "Circle",
 	Masque_Version = 60200,
 	Backdrop = {
@@ -34,6 +35,10 @@ MSQ:AddSkin("Gears", {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Overlay]],
 	},
 	Cooldown = {
+		Width = 24,
+		Height = 24,
+	},
+	ChargeCooldown = {
 		Width = 24,
 		Height = 24,
 	},
