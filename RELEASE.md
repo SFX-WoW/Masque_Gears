@@ -1,6 +1,4 @@
-### 6.2.1 ###
+### 6.2.2 ###
 
-- SVN to Git conversion.
-- Add ChargeCooldown.
-- Update Changelog, License and Readme.
-- Update .pkgmeta
+- Fix links in Readme.
+- Update Changelog.
