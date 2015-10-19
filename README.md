@@ -33,4 +33,4 @@ Special thanks to the original author of the *Gears* skins.
 
 ### Feedback ###
 
-For bug reports and suggestions, please use the [ticket system](https://github.com/StormFX/Masque_Gears/issues) on GitHub.
+For bug reports and suggestions, please use the [ticket system](https://github.com/stormfx/masque_gears/issues) on GitHub.
