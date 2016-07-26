@@ -103,7 +103,7 @@ MSQ:AddSkin("Gears", {
 		Width = 40,
 		Height = 10,
 	},
-	AutoCast = {
+	Shine = {
 		Width = 16,
 		Height = 16,
 	},
