@@ -1,4 +1,5 @@
-### 6.2.2 ###
+### 7.0.0 ###
 
-- Fix links in Readme.
-- Update Changelog.
+- ToC to 70000.
+- Update version.
+- Rename "Autocast" to "Shine".
