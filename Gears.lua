@@ -4,8 +4,6 @@
 	please see the included License.txt file.
 
 	* File...: Gears.lua
-	* Date...: @file-date-iso@
-	* Hash...: @file-abbreviated-hash@
 	* Author.: StormFX
 
 ]]
@@ -13,12 +11,15 @@
 local MSQ = LibStub("Masque", true)
 if not MSQ then return end
 
+local AddOn, _ = ...
+local Version = GetAddOnMetadata(AddOn, "Version")
+
 -- Gears
 MSQ:AddSkin("Gears", {
 	Author = "StormFX, Unknown",
-	Version = "@project-version@",
+	Version = Version,
 	Shape = "Circle",
-	Masque_Version = 60200,
+	Masque_Version = 70200,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
@@ -109,8 +110,8 @@ MSQ:AddSkin("Gears", {
 	},
 }, true)
 
--- Gears: Black
-MSQ:AddSkin("Gears: Black", {
+-- Gears - Black
+MSQ:AddSkin("Gears - Black", {
 	Template = "Gears",
 	Normal = {
 		Width = 40,
@@ -119,8 +120,8 @@ MSQ:AddSkin("Gears: Black", {
 	},
 }, true)
 
--- Gears: Spark
-MSQ:AddSkin("Gears: Spark", {
+-- Gears - Spark
+MSQ:AddSkin("Gears - Spark", {
 	Template = "Gears",
 	Normal = {
 		Width = 40,
