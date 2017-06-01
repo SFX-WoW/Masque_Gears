@@ -1,17 +1,18 @@
 [COLOR="#242424"].[/COLOR]
 [COLOR=Orange][SIZE="4"]About[/SIZE][/COLOR]
 
-[I]Gears[/I] is an add-on for for [URL="https://worldofwarcraft.com"]World of Warcraft[/URL] that adds a set of skins for [URL="https://www.wowace.com/projects/masque"]Masque[/URL].
+[I]Gears[/I] is an add-on for for [URL="https://worldofwarcraft.com"]World of Warcraft[/URL] that adds a set of skins for [URL="http://www.wowinterface.com/downloads/info12097"]Masque[/URL].
 
 [I][B]Note:[/B] You must have [URL="http://www.wowinterface.com/downloads/info12097"]Masque[/URL] installed to use this add-on.[/I]
 
 [COLOR=Orange][SIZE="4"]Skins[/SIZE][/COLOR]
 
-This skin set contains the following skins:
+This set contains the following skins:
 
 [LIST]
 [*] Gears
 [*] Gears - Black
+[*] Gears - Random
 [*] Gears - Spark
 [/LIST]
 
@@ -28,8 +29,8 @@ This skin set contains the following skins:
 [COLOR=Orange][SIZE="4"]Links[/SIZE][/COLOR]
 
 [LIST]
+[*] [URL="http://www.wowinterface.com/downloads/info12097"]Download Masque[/URL]
 [*] [URL="https://github.com/stormfx/masque/wiki/skin-list"]Get More Skins[/URL]
-[*] [URL="https://www.wowace.com/projects/masque"]Masque Project Page[/URL]
 [*] [URL="https://www.facebook.com/masqueui"]Masque Facebook Page[/URL]
 [*] [URL="https://github.com/stormfx/masque/wiki"]Masque Wiki[/URL]
 [/LIST]
