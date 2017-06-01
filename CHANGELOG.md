@@ -1,6 +1,8 @@
 ### 7.2.1 ###
 
-- Masque version update.
+- Add skin: Gears - Random.
+- Add support for Equipped and Cooldown colors.
+- Update Masque_Version.
 - Update ReadMe.
 - Update locales.
 
