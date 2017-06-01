@@ -38,6 +38,7 @@ MSQ:AddSkin("Gears", {
 	Cooldown = {
 		Width = 24,
 		Height = 24,
+		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
 		Width = 24,
@@ -60,14 +61,15 @@ MSQ:AddSkin("Gears", {
 	Checked = {
 		Width = 40,
 		Height = 40,
-		BlendMode = "ADD",
-		Color = {0, 0.8, 1, 0.5},
+		BlendMode = "BLEND",
+		Color = {0, 0.7, 0.9, 0.7},
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
 	},
 	Border = {
 		Width = 40,
 		Height = 40,
-		BlendMode = "ADD",
+		BlendMode = "BLEND",
+		Color = {0, 1, 0, 0.5},
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
 	},
 	Gloss = {
@@ -117,6 +119,21 @@ MSQ:AddSkin("Gears - Black", {
 		Width = 40,
 		Height = 40,
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Black]],
+	},
+}, true)
+
+-- Gears - Random
+MSQ:AddSkin("Gears - Random", {
+	Template = "Gears",
+	Normal = {
+		Width = 40,
+		Height = 40,
+		Random = true,
+		Textures = {
+			[[Interface\AddOns\Masque_Gears\Textures\Normal]],
+			[[Interface\AddOns\Masque_Gears\Textures\Black]],
+			[[Interface\AddOns\Masque_Gears\Textures\Spark]],
+		},
 	},
 }, true)
 
