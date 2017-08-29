@@ -1,10 +1,14 @@
+### 7.3.0 ###
+
+- ToC to 70300.
+
 ### 7.2.1 ###
 
-- Add skin: Gears - Random.
-- Add support for Equipped and Cooldown colors.
-- Update Masque_Version.
-- Update ReadMe.
-- Update locales.
+- Added skin: Gears - Random.
+- Added support for Equipped and Cooldown colors.
+- Updated Masque_Version.
+- Updated ReadMe.
+- Updated Locales.
 
 ### 7.2.0 ###
 
@@ -17,120 +21,103 @@
 ### 7.0.0 ###
 
 - ToC to 70000.
-- Update version.
-- Rename "Autocast" to "Shine".
+- Renamed "Autocast" to "Shine".
 
 ### 6.2.2 ###
 
-- Fix links in Readme.
-- Update Changelog.
+- Fixed links in Readme.
 
 ### 6.2.1 ###
 
 - SVN to Git conversion.
-- Add ChargeCooldown.
-- Update Changelog, License and Readme.
+- Added ChargeCooldown.
+- Updated License and Readme.
 - Packager update.
 
 ### 6.2.0 ###
 
 - ToC to 60200.
-- Update version.
 
 ### 6.1.0 ###
 
 - ToC to 60100.
-- Update version.
 
 ### 6.0.0 ###
 
 - ToC to 60000.
-- Update version.
 
 ### 5.4.74 ###
 
 - ToC to 50400.
-- Update version.
 
 ### 5.3.72 ###
 
 - ToC to 50300.
-- Update version.
 
 ### 5.2.70 ###
 
 - ToC to 50200.
-- Update version.
 
 ### 5.1.68 ###
 
 - ToC to 50100.
-- Update version.
 
 ### 5.0.66 ###
 
 - ToC to 50001.
-- Update version.
 
 ### 4.3.64 ###
 
 - ToC to 40300.
-- Update version.
 
 ### 4.2.62 ###
 
-- Add History.txt
+- Added History.txt
 
 ### 4.2.60 ###
 
 - Renamed to Masque_Gears.
-- Remove FontSize.
+- Removed FontSize.
 - ToC to 40200.
-- Update version.
-- Update to Masque's API.
+- Updated to Masque's API.
 
 ### 4.0.54 ###
 
-- Update to new LBF features.
+- Updated to new LBF features.
 
 ### 4.0.52 ###
 
 - ToC to 40000.
-- Update version.
 
 ### 3.3.51 ###
 
-- Remove Border color.
+- Removed Border color.
 
 ### 3.3.50 ###
 
-- Equip border color.
+- Equipped border color.
 - Code optimization.
 
 ### 3.3.47 ###
 
 - ToC to 30300.
-- Update version.
 - Localization update.
-- Update License and Changelog.
+- Updated License.
 
 ### 3.2.45 ###
 
 - ToC to 30200.
-- Update version.
 
 ### 3.1.40 ###
 
-- Update License.
-- Add X-WoWI-ID.
-- Update X-Category.
+- Updated License.
+- Added X-WoWI-ID.
+- Updated X-Category.
 
 ### 3.1.37 ###
 
 - ToC to 30100.
-- Update version.
 
 ### 3.0.2 ###
 
 - ToC to 30000.
-- Update version.
