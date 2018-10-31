@@ -39,7 +39,7 @@ local Websites = {
 
 MSQ:AddSkin("Gears", {
 	Shape = "Circle",
-	Group = "Serenity",
+	Group = "Gears",
 	Order = 1,
 	Version = Version,
 	Authors = Authors,
