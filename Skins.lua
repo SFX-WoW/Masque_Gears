@@ -8,6 +8,7 @@
 
 	Gears Skins
 ]]
+
 -- GLOBALS: GetAddOnMetadata, LibStub
 
 local MSQ = LibStub and LibStub("Masque", true)
