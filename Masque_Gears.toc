@@ -1,5 +1,5 @@
 ## Interface: 80000
-## Title: Masque: |cffff8000Gears|r
+## Title: Masque: Gears
 ## Version: @project-version@
 ## Author: StormFX
 ## Dependencies: Masque
