@@ -3,23 +3,48 @@
 	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File...: Gears.lua
-	* Author.: StormFX
+	* File....: Skins.lua
+	* Authors.: StormFX, Sairen
 
+	Gears Skins
 ]]
+-- GLOBALS: GetAddOnMetadata, LibStub
 
-local MSQ = LibStub("Masque", true)
+local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
-local AddOn, _ = ...
-local Version = GetAddOnMetadata(AddOn, "Version")
+----------------------------------------
+-- Locals
+----------------------------------------
 
+local AddOn, Core = ...
+
+-- Locale
+local L = Core.Locale
+
+-- Skin Info
+local Version = GetAddOnMetadata(AddOn, "Version")
+local Authors = {"StormFX", "|cff999999Sairen|r"}
+local Websites = {
+	"https://github.com/stormfx/masque_gears",
+	"https://www.wowace.com/projects/masque-gears",
+	"https://www.curseforge.com/wow/addons/masque-gears",
+	"https://www.wowinterface.com/downloads/info8918",
+}
+
+----------------------------------------
 -- Gears
+----------------------------------------
+
 MSQ:AddSkin("Gears", {
-	Author = "StormFX, Unknown",
-	Version = Version,
 	Shape = "Circle",
-	Masque_Version = 70200,
+	Group = "Serenity",
+	Order = 1,
+	Version = Version,
+	Authors = Authors,
+	Websites = Websites,
+	Description = L["A port of the original Sprockets skin by Sairen."],
+	Masque_Version = 80000,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
@@ -34,15 +59,6 @@ MSQ:AddSkin("Gears", {
 		Height = 40,
 		Color = {1, 0, 0, 0.8},
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Overlay]],
-	},
-	Cooldown = {
-		Width = 24,
-		Height = 24,
-		Color = {0, 0, 0, 0.7},
-	},
-	ChargeCooldown = {
-		Width = 24,
-		Height = 24,
 	},
 	Pushed = {
 		Width = 40,
@@ -106,15 +122,30 @@ MSQ:AddSkin("Gears", {
 		Width = 40,
 		Height = 10,
 	},
+	Cooldown = {
+		Width = 24,
+		Height = 24,
+		Color = {0, 0, 0, 0.7},
+	},
+	ChargeCooldown = {
+		Width = 24,
+		Height = 24,
+	},
 	Shine = {
 		Width = 16,
 		Height = 16,
 	},
 }, true)
 
+----------------------------------------
 -- Gears - Black
+----------------------------------------
+
 MSQ:AddSkin("Gears - Black", {
+	Title = "Black",
+	Order = 2,
 	Template = "Gears",
+	Description = L["A port of the original Sprockets Dark skin by Sairen."],
 	Normal = {
 		Width = 40,
 		Height = 40,
@@ -122,9 +153,15 @@ MSQ:AddSkin("Gears - Black", {
 	},
 }, true)
 
+----------------------------------------
 -- Gears - Random
+----------------------------------------
+
 MSQ:AddSkin("Gears - Random", {
+	Title = "Random",
+	Order = 3,
 	Template = "Gears",
+	Description = L["A modified version of Gears that uses a random texture for each button."],
 	Normal = {
 		Width = 40,
 		Height = 40,
@@ -137,9 +174,15 @@ MSQ:AddSkin("Gears - Random", {
 	},
 }, true)
 
+----------------------------------------
 -- Gears - Spark
+----------------------------------------
+
 MSQ:AddSkin("Gears - Spark", {
+	Title = "Spark",
+	Order = 4,
 	Template = "Gears",
+	Description = L["A port of the original Sprockets Spark skin by Sairen."],
 	Normal = {
 		Width = 40,
 		Height = 40,
