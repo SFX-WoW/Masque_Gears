@@ -12,7 +12,11 @@
 ## Notes-zhTW: Masque的Gears皮膚。
 ## X-Website: https://www.wowace.com/projects/masque-gears
 ## X-Category: Interface Enhancements
+## X-Credits: Sairen
 ## X-WoWI-ID: 8918
+
+# Locales
+Locales.lua
 
 # Skins
 Skins.lua
