@@ -124,13 +124,13 @@ MSQ:AddSkin("Gears", {
 		Height = 10,
 	},
 	Cooldown = {
-		Width = 24,
-		Height = 24,
+		Width = 21,
+		Height = 21,
 		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
-		Width = 24,
-		Height = 24,
+		Width = 21,
+		Height = 21,
 	},
 	Shine = {
 		Width = 16,
