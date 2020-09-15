@@ -1,12 +1,13 @@
 --[[
 
-	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file.
+	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Gears.
 
 	* File....: Skins.lua
-	* Authors.: StormFX, Sairen
+	* Authors.: StormFX, Craygz, Sairen, Xuerian
 
 	Gears Skins
+
 ]]
 
 -- GLOBALS: GetAddOnMetadata, LibStub
@@ -14,20 +15,20 @@
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
+local AddOn, Core = ...
+
 ----------------------------------------
 -- Locals
-----------------------------------------
-
-local AddOn, Core = ...
+---
 
 -- Locale
 local L = Core.Locale
 
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
-local Authors = {"StormFX", "|cff999999Sairen|r"}
+local Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Sairen|r"}
 local Websites = {
-	"https://github.com/stormfx/masque_gears",
+	"https://github.com/SFX-WoW/Masque_Gears",
 	"https://www.wowace.com/projects/masque-gears",
 	"https://www.curseforge.com/wow/addons/masque-gears",
 	"https://www.wowinterface.com/downloads/info8918",
@@ -35,7 +36,7 @@ local Websites = {
 
 ----------------------------------------
 -- Gears
-----------------------------------------
+---
 
 MSQ:AddSkin("Gears", {
 	Shape = "Circle",
@@ -140,11 +141,12 @@ MSQ:AddSkin("Gears", {
 
 ----------------------------------------
 -- Gears - Black
-----------------------------------------
+---
 
 MSQ:AddSkin("Gears - Black", {
 	Title = "Black",
 	Order = 2,
+	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Sairen|r", "|cff999999Xuerian|r"},
 	Template = "Gears",
 	Description = L["A port of the original Sprockets Dark skin by Sairen."],
 	Normal = {
@@ -156,7 +158,7 @@ MSQ:AddSkin("Gears - Black", {
 
 ----------------------------------------
 -- Gears - Random
-----------------------------------------
+---
 
 MSQ:AddSkin("Gears - Random", {
 	Title = "Random",
@@ -177,7 +179,7 @@ MSQ:AddSkin("Gears - Random", {
 
 ----------------------------------------
 -- Gears - Spark
-----------------------------------------
+---
 
 MSQ:AddSkin("Gears - Spark", {
 	Title = "Spark",

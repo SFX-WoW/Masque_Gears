@@ -1,20 +1,20 @@
 --[[
 
-	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file.
+	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Gears.
 
-	* File....: Locales.lua
-	* Authors.: StormFX
+	* File...: Locales.lua
+	* Author.: StormFX
 
 ]]
 
--- GLOBALS: GetLocale
+-- GLOBALS: GetLocale, setmetatable
 
 local _, Core = ...
 
 ----------------------------------------
 -- Locales
-----------------------------------------
+---
 
 local L = {}
 
@@ -28,6 +28,7 @@ Core.Locale = setmetatable(L, {
 local Locale = GetLocale()
 
 if Locale == "enGB" or Locale == "enUS" then
+	-- enUS/enGB for Reference
 	--L["A port of the original Sprockets skin by Sairen."] = "A port of the original Sprockets skin by Sairen."
 	--L["A port of the original Sprockets Dark skin by Sairen."] = "A port of the original Sprockets Dark skin by Sairen."
 	--L["A port of the original Sprockets Spark skin by Sairen."] = "A port of the original Sprockets Spark skin by Sairen."
