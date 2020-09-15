@@ -8,8 +8,8 @@
 
 ## Notes: Gears skins for Masque.
 ## Notes-deDE: Gears-Skin für Masque.
-## Notes-esES: Skin Gears para Masque.
 ## Notes-esMX: Skin Gears para Masque.
+## Notes-esES: Skin Gears para Masque.
 ## Notes-frFR: Skins de Gears pour Masque.
 ## Notes-itIT: Skin Gears per Masque.
 ## Notes-ruRU: Скин Gears для Masque.
