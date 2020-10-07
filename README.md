@@ -1,11 +1,29 @@
 [![Build][SVG-Build]][Build]
+[![Masque][SVG-Masque]][Masque]
 [![Discord][SVG-Discord]][Discord]
+[![Sponsor][SVG-Sponsor]][Sponsor]
+[![PayPal][SVG-PayPal]][PayPal]
+[![Patreon][SVG-Patreon]][Patreon]
 
-## About
+<details>
+<summary><strong>Contents</strong></summary><p>
+
+- [About](#About "Go to About")
+- [Skins](#Skins "Go to Skins")
+- [Requirements](#Requirements "Go to Requirements")
+- [Installation](#Installation "Go to Installation")
+- [Credits](#Credits "Go to Credits")
+- [Feedback](#Feedback "Go to Feedback")
+- [Localization](#Localization "Go to Localization")
+- [Links](#Links "Go to Links")
+
+</p></details>
+
+## [About][Top]
 
 **Masque: Gears** is an add-on for [World of Warcraft] that adds a set of skins for [Masque].
 
-## Skins
+## [Skins][Top]
 
 This set contains the following skins:
 
@@ -14,36 +32,31 @@ This set contains the following skins:
 - **Gears - Spark** - A port of the original _Sprockets Spark_ skin for _cyCircled_.
 - **Gears - Random** - A modified version of **Gears** that uses a random texture for each button.
 
-## Requirements
+## [Requirements][Top]
 
 This add-on requires [Masque].
 
-## Installation
+## [Installation][Top]
 
-Install the package through your preferred add-on manager. Alternatively, you can find manual instructions on the [project wiki][Wiki].
+Install the package through your preferred add-on manager or extract the archive to your add-ons directory.
 
-## Credits
+- **Classic:** `World of Warcraft\_classic_\Interface\AddOns`
+- **Retail:** `World of Warcraft\_retail_\Interface\AddOns`
 
-- [Sairen](https://www.wowace.com/members/_ForgeUser139308 "Sairen @ WoW Ace") for [cyCircled].
-- [Craygz](https://www.wowace.com/members/_ForgeUser139308 "Craygz @ WoW Ace") for the **Sprockets** skins.
-- [Xuerian](https://www.wowace.com/members/_ForgeUser139308 "Xuerian @ WoW Ace") for the **Dark** version of **Sprockets**.
+## [Credits][Top]
 
-## Feedback
+- [Craygz](https://www.wowace.com/members/_ForgeUser139308 "Craygz @ WoW Ace") for the original **Sprockets** skins.
+- [Xuerian](https://www.wowace.com/members/_ForgeUser139308 "Xuerian @ WoW Ace") for the original **Dark** version of **Sprockets**.
+
+## [Feedback][Top]
 
 For bug reports and suggestions, use the [issue tracker]. Direct any questions or comments to [Discord].
 
-## Localization
+## [Localization][Top]
 
 To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
 
-## Support
-
-If you'd like to support the development of this and other projects, you can use one of the options below.
-
-- [Donate via PayPal][Donate]
-- [Sponsor on GitHub][Sponsor]
-
-## Links
+## [Links][Top]
 
 - [Masque][Masque]
 - [CurseForge][CurseForge]
@@ -53,26 +66,29 @@ If you'd like to support the development of this and other projects, you can use
 [Links]: #
 
 [Build]: https://github.com/SFX-WoW/Masque_Gears/actions?query=workflow%3ARelease (Build Status)
+[Masque]: https://github.com/SFX-WoW/Masque (Download Masque)
 [Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
+[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
+[PayPal]: https://www.paypal.me/stormfxi (Donate via PayPal)
+[Patreon]: https://www.patreon.com/stormfx (Become a Patron)
+
+[Top]: #Top (Top of the Page)
 
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
-[Masque]: https://github.com/SFX-WoW/Masque (Download Masque)
 
 [Issue Tracker]: https://github.com/SFX-WoW/Masque_Gears/issues (Report an Issue)
 [Localization System]: https://www.wowace.com/projects/masque-gears/localization (Translate on WoW Ace)
-[Wiki]: https://github.com/SFX-WoW/Masque_Gears/wiki (View the Wiki)
-
-[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
-[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 
 [CurseForge]: https://www.curseforge.com/wow/addons/masque-gears (View on CurseForge)
 [GitHub]: https://github.com/SFX-WoW/Masque_Gears (View on GitHub)
 [WoW Ace]: https://www.wowace.com/projects/masque-gears (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info8918 (View on WoW Interface)
 
-[cyCircled]: https://www.wowace.com/projects/cyCircled (cyCircled on WoW Ace)
-
 [Images]: #
 
 [SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/Masque_Gears/Release?label=Build&logo=github&logoColor=fff&style=flat-square
+[SVG-Masque]: https://img.shields.io/endpoint?url=https://wow.stormfx.com/img/svg/masque-skin.json
 [SVG-Discord]: https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=fff&style=flat-square
+[SVG-Sponsor]: https://img.shields.io/badge/Sponsor-555?logo=github&logoColor=fff&style=flat-square
+[SVG-PayPal]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/paypal.json
+[SVG-Patreon]: https://img.shields.io/badge/Patreon-f96854?logo=patreon&logoColor=fff&style=flat-square
