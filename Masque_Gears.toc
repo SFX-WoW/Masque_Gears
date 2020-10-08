@@ -21,7 +21,7 @@
 
 ## X-Website: https://github.com/SFX-WoW/Masque_Gears
 ## X-Category: Interface Enhancements
-## X-Credits: Craygz, Sairen, Xuerian
+## X-Credits: Craygz, Xuerian
 ## X-Curse-Project-ID: 13596
 ## X-WoWI-ID: 8918
 
