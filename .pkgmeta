@@ -1,7 +1,6 @@
 package-as: Masque_Gears
 
 required-dependencies:
-  - libstub
   - masque
 
 ignore:
