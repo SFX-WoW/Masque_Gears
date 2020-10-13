@@ -4,13 +4,11 @@
 	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Gears.
 
 	* File....: Skins.lua
-	* Authors.: StormFX, Craygz, Sairen, Xuerian
+	* Authors.: StormFX, Craygz, Xuerian
 
 	Gears Skins
 
 ]]
-
--- GLOBALS: GetAddOnMetadata, LibStub
 
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
@@ -26,7 +24,7 @@ local L = Core.Locale
 
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
-local Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Sairen|r"}
+local Authors = {"StormFX", "|cff999999Craygz|r"}
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_Gears",
 	"https://www.wowace.com/projects/masque-gears",
@@ -40,13 +38,20 @@ local Websites = {
 
 MSQ:AddSkin("Gears", {
 	Shape = "Circle",
-	Group = "Gears",
-	Order = 1,
+	Masque_Version = 80000,
+
+	-- Info
 	Version = Version,
 	Authors = Authors,
 	Websites = Websites,
-	Description = L["A port of the original Sprockets skin by Sairen."],
-	Masque_Version = 80000,
+	Description = L["A port of the original Sprockets skin by Craygz."],
+
+	-- UI
+	Group = "Gears",
+	Order = 1,
+
+	-- Skin
+	-- Mask = nil,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
@@ -144,11 +149,17 @@ MSQ:AddSkin("Gears", {
 ---
 
 MSQ:AddSkin("Gears - Black", {
+	Template = "Gears",
+
+	-- UI
 	Title = "Black",
 	Order = 2,
-	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Sairen|r", "|cff999999Xuerian|r"},
-	Template = "Gears",
-	Description = L["A port of the original Sprockets Dark skin by Sairen."],
+
+	-- Info
+	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Xuerian|r"},
+	Description = L["A port of the original Sprockets Dark skin by Craygz and Xuerian."],
+
+	-- Skin
 	Normal = {
 		Width = 40,
 		Height = 40,
@@ -161,10 +172,16 @@ MSQ:AddSkin("Gears - Black", {
 ---
 
 MSQ:AddSkin("Gears - Spark", {
+	Template = "Gears",
+
+	-- UI
 	Title = "Spark",
 	Order = 4,
-	Template = "Gears",
-	Description = L["A port of the original Sprockets Spark skin by Sairen."],
+
+	-- Info
+	Description = L["A port of the original Sprockets Spark skin."],
+
+	-- Skin
 	Normal = {
 		Width = 40,
 		Height = 40,
