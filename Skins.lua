@@ -157,27 +157,6 @@ MSQ:AddSkin("Gears - Black", {
 }, true)
 
 ----------------------------------------
--- Gears - Random
----
-
-MSQ:AddSkin("Gears - Random", {
-	Title = "Random",
-	Order = 3,
-	Template = "Gears",
-	Description = L["A modified version of Gears that uses a random texture for each button."],
-	Normal = {
-		Width = 40,
-		Height = 40,
-		Random = true,
-		Textures = {
-			[[Interface\AddOns\Masque_Gears\Textures\Normal]],
-			[[Interface\AddOns\Masque_Gears\Textures\Black]],
-			[[Interface\AddOns\Masque_Gears\Textures\Spark]],
-		},
-	},
-}, true)
-
-----------------------------------------
 -- Gears - Spark
 ---
 
