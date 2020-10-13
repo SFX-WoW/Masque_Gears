@@ -29,9 +29,9 @@ local Locale = GetLocale()
 
 if Locale == "enGB" or Locale == "enUS" then
 	-- enUS/enGB for Reference
-	--L["A port of the original Sprockets skin by Sairen."] = "A port of the original Sprockets skin by Sairen."
-	--L["A port of the original Sprockets Dark skin by Sairen."] = "A port of the original Sprockets Dark skin by Sairen."
-	--L["A port of the original Sprockets Spark skin by Sairen."] = "A port of the original Sprockets Spark skin by Sairen."
+	--L["A port of the original Sprockets skin by Craygz."] = "A port of the original Sprockets skin by Craygz."
+	--L["A port of the original Sprockets Dark skin by Craygz and Xuerian."] = "A port of the original Sprockets Dark skin by Craygz and Xuerian."
+	--L["A port of the original Sprockets Spark skin."] = "A port of the original Sprockets Spark skin."
 	--L["A modified version of Gears that uses a random texture for each button."] = "A modified version of Gears that uses a random texture for each button."
 	return
 --elseif Locale == "deDE" then
