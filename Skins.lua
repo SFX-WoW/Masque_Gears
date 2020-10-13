@@ -145,14 +145,14 @@ MSQ:AddSkin("Gears", {
 }, true)
 
 ----------------------------------------
--- Gears - Black
+-- Gears - Dark
 ---
 
-MSQ:AddSkin("Gears - Black", {
+MSQ:AddSkin("Gears - Dark", {
 	Template = "Gears",
 
 	-- UI
-	Title = "Black",
+	Title = "Dark",
 	Order = 2,
 
 	-- Info
@@ -163,7 +163,7 @@ MSQ:AddSkin("Gears - Black", {
 	Normal = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Black]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Dark]],
 	},
 }, true)
 
