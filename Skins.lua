@@ -38,7 +38,7 @@ local Websites = {
 
 MSQ:AddSkin("Gears", {
 	Shape = "Circle",
-	Masque_Version = 80000,
+	Masque_Version = 90001,
 
 	-- Info
 	Description = L["A port of the original Sprockets skin by Craygz."],
