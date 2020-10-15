@@ -627,6 +627,37 @@ MSQ:AddSkin("Gears - Sparks", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- SetAllPoints = nil,
+	},
+}, true)
+
+----------------------------------------
+-- Gears - Dark Spark
+---
+
+MSQ:AddSkin("Gears - Sparks Dark", {
+	Template = "Gears - Dark",
+
+	-- UI
+	Title = "Sparks Dark",
+	Order = 4,
+
+	-- Info
+	Description = L["An alternate version of Gears - Dark with Sparks instead of a Gloss."],
+
+	-- Skin
+	Gloss = {
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks]],
+		-- TexCoords = {0, 1, 0, 1},
+		Color = {1, 1, 1, 1},
+		BlendMode = "BLEND",
+		DrawLayer = "OVERLAY",
+		DrawLevel = 0,
+		Width = 40,
+		Height = 40,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
 }, true)
