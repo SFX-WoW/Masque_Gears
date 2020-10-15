@@ -53,7 +53,7 @@ MSQ:AddSkin("Gears", {
 	-- Skin
 	-- Mask = nil,
 	Backdrop = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Backdrop]],
+		Texture = [[Interface\AddOns\Masque\Textures\Backdrop\Action]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
