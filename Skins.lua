@@ -359,8 +359,8 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	AutoCastShine = {
-		Width = 16,
-		Height = 16,
+		Width = 24,
+		Height = 24,
 		Point = "CENTER",
 		RelPoint = "CENTER",
 		OffsetX = 0,
