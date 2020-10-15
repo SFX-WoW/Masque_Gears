@@ -51,7 +51,16 @@ MSQ:AddSkin("Gears", {
 	Order = 1,
 
 	-- Skin
-	-- Mask = nil,
+	Mask = {
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Mask]],
+		Width = 36,
+		Height = 36,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
+	},
 	Backdrop = {
 		Texture = [[Interface\AddOns\Masque\Textures\Backdrop\Action]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -65,6 +74,7 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		UseMask = true,
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
 	},
