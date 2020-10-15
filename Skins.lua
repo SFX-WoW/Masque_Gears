@@ -272,9 +272,9 @@ MSQ:AddSkin("Gears", {
 		OffsetY = -2,
 	},
 	Highlight = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Highlight]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {1, 1, 1, 0.8},
+		Color = {1, 1, 1, 0.5},
 		BlendMode = "ADD",
 		DrawLayer = "HIGHLIGHT",
 		DrawLevel = 0,
