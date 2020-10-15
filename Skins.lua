@@ -570,7 +570,7 @@ MSQ:AddSkin("Gears - Dark", {
 
 	-- UI
 	Title = "Dark",
-	Order = 2,
+	Order = 3,
 
 	-- Info
 	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Xuerian|r"},
@@ -581,7 +581,7 @@ MSQ:AddSkin("Gears - Dark", {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Dark]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Caith\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
