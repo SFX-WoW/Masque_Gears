@@ -41,7 +41,7 @@ MSQ:AddSkin("Gears", {
 	Masque_Version = 90001,
 
 	-- Info
-	Description = L["A port of the original Sprockets skin by Craygz."],
+	Description = L["A metallic gear skin based on the original Sprockets by Craygz."],
 	Version = Version,
 	Authors = Authors,
 	Websites = Websites,
@@ -67,7 +67,6 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- UseColor = nil,
 		-- SetAllPoints = nil,
-		},
 	},
 	Icon = {
 		-- TexCoords = {0, 1, 0, 1},
@@ -213,6 +212,7 @@ MSQ:AddSkin("Gears", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- SetAllPoints = nil,
+	},
 	Name = {
 		JustifyH = "CENTER",
 		JustifyV = "MIDDLE",
@@ -284,7 +284,7 @@ MSQ:AddSkin("Gears - Dark", {
 
 	-- Info
 	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Xuerian|r"},
-	Description = L["A port of the original Sprockets Dark skin by Craygz and Xuerian."],
+	Description = L["An alternate version of Gears based the original Sprockets - Dark skin by Craygz and Xuerian."],
 
 	-- Skin
 	Normal = {
@@ -320,7 +320,7 @@ MSQ:AddSkin("Gears - Spark", {
 	Order = 4,
 
 	-- Info
-	Description = L["A port of the original Sprockets Spark skin."],
+	Description = L["An alternate version of Gears with Sparks instead of a Gloss."],
 
 	-- Skin
 	Normal = {
