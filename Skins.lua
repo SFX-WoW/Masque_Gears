@@ -526,6 +526,42 @@ MSQ:AddSkin("Gears", {
 }, true)
 
 ----------------------------------------
+-- Gears - Classic
+---
+
+MSQ:AddSkin("Gears - Classic", {
+	Template = "Gears",
+
+	-- UI
+	Title = "Classic",
+	Order = 2,
+
+	-- Info
+	Description = L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."],
+
+	-- Skin
+	Normal = {
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		-- TexCoords = {0, 1, 0, 1},
+		Color = {0.9, 0.9, 0.75, 1},
+		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		-- EmptyCoords = {0, 1, 0, 1},
+		-- EmptyColor = {1, 1, 1, 0.5},
+		BlendMode = "BLEND",
+		DrawLayer = "ARTWORK",
+		DrawLevel = 0,
+		Width = 40,
+		Height = 40,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- UseStates = nil,
+		-- SetAllPoints = nil,
+	},
+}, true)
+
+----------------------------------------
 -- Gears - Dark
 ---
 
