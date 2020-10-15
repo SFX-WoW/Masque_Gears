@@ -29,10 +29,11 @@
 
 This set contains the following skins:
 
-- **Gears** - A port of the original _Sprockets_ skin for _cyCircled_.
-- **Gears - Black** - A port of the original _Sprockets Dark_ skin for _cyCircled_.
-- **Gears - Spark** - A port of the original _Sprockets Spark_ skin for _cyCircled_.
-- **Gears - Random** - A modified version of **Gears** that uses a random texture for each button.
+- **Gears** - A metallic gear skin based on the original _Sprockets_ skin for _cyCircled_.
+- **Gears - Classic** - An alternate version of **Gears** that mimics the original _Sprockets_ skin.
+- **Gears - Dark** - An alternate version of **Gears** based on the original _Sprockets - Dark_ skin for _cyCircled_.
+- **Gears - Sparks** - An alternate version of **Gears** with Sparks instead of a Gloss.
+- **Gears - Sparks Dark** - An alternate version of **Gears - Dark** with Sparks instead of a Gloss.
 
 ## [Requirements][Top]
 
