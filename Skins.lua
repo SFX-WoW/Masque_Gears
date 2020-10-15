@@ -290,7 +290,7 @@ MSQ:AddSkin("Gears", {
 	SlotHighlight = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {1, 1, 0.6, 1},
+		Color = {1, 1, 1, 0.8},
 		BlendMode = "ADD",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
