@@ -1,5 +1,5 @@
 #@retail@
-## Interface: 80300
+## Interface: 90001
 #@end-retail@
 #@non-retail@
 # ## Interface: 11305
@@ -8,10 +8,10 @@
 
 ## Notes: Gears skins for Masque.
 ## Notes-deDE: Gears-Skin für Masque.
-## Notes-esMX: Skin Gears para Masque.
-## Notes-esES: Skin Gears para Masque.
+## Notes-esMX: Skins Gears para Masque.
+## Notes-esES: Skins Gears para Masque.
 ## Notes-frFR: Skins de Gears pour Masque.
-## Notes-itIT: Skin Gears per Masque.
+## Notes-itIT: Skins Gears per Masque.
 ## Notes-ruRU: Скин Gears для Masque.
 ## Notes-zhTW: Masque的Gears皮膚。
 
