@@ -639,7 +639,7 @@ MSQ:AddSkin("Gears - Sparks Dark", {
 
 	-- UI
 	Title = "Sparks Dark",
-	Order = 4,
+	Order = 5,
 
 	-- Info
 	Description = L["An alternate version of Gears - Dark with Sparks instead of a Gloss."],
