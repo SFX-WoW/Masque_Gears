@@ -602,26 +602,23 @@ MSQ:AddSkin("Gears - Dark", {
 -- Gears - Spark
 ---
 
-MSQ:AddSkin("Gears - Spark", {
+MSQ:AddSkin("Gears - Sparks", {
 	Template = "Gears",
 
 	-- UI
-	Title = "Spark",
+	Title = "Sparks",
 	Order = 4,
 
 	-- Info
 	Description = L["An alternate version of Gears with Sparks instead of a Gloss."],
 
 	-- Skin
-	Normal = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Spark]],
+	Gloss = {
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks]],
 		-- TexCoords = {0, 1, 0, 1},
-		-- Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Caith\Textures\Normal]],
-		-- EmptyCoords = {0, 1, 0, 1},
-		-- EmptyColor = {1, 1, 1, 0.5},
+		Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
-		DrawLayer = "ARTWORK",
+		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
 		Width = 40,
 		Height = 40,
@@ -629,7 +626,7 @@ MSQ:AddSkin("Gears - Spark", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- UseStates = nil,
+		-- SetAllPoints = nil,
 		-- SetAllPoints = nil,
 	},
 }, true)
