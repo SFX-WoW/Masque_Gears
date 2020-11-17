@@ -523,7 +523,7 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
 
 ----------------------------------------
 -- Gears - Classic
@@ -559,7 +559,7 @@ MSQ:AddSkin("Gears - Classic", {
 		-- UseStates = nil,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
 
 ----------------------------------------
 -- Gears - Dark
@@ -596,7 +596,7 @@ MSQ:AddSkin("Gears - Dark", {
 		-- UseStates = nil,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
 
 ----------------------------------------
 -- Gears - Spark
@@ -628,7 +628,7 @@ MSQ:AddSkin("Gears - Sparks", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
 
 ----------------------------------------
 -- Gears - Dark Spark
@@ -660,4 +660,4 @@ MSQ:AddSkin("Gears - Sparks Dark", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-}, true)
+})
