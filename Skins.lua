@@ -37,8 +37,8 @@ local Websites = {
 ---
 
 MSQ:AddSkin("Gears", {
+	API_VERSION = 90002,
 	Shape = "Circle",
-	Masque_Version = 90001,
 
 	-- Info
 	Description = L["A metallic gear skin based on the original Sprockets by Craygz."],
