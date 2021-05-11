@@ -23,6 +23,7 @@
 ## X-Category: Interface Enhancements
 ## X-Credits: Craygz, Xuerian
 ## X-Curse-Project-ID: 13596
+## X-Wago-ID: RqGZo2Nd
 ## X-WoWI-ID: 8918
 
 # Locales
