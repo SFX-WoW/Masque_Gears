@@ -1,11 +1,7 @@
-#@retail@
 ## Interface: 90005
-#@end-retail@
-#@non-retail@
-# ## Interface: 11306
-#@end-non-retail@
-## Title: Masque: Gears
+## Interface-Classic: 11307
 
+## Title: Masque: Gears
 ## Notes: Gears skins for Masque.
 ## Notes-deDE: Gears-Skin für Masque.
 ## Notes-esMX: Skins Gears para Masque.
