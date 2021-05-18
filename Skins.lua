@@ -27,8 +27,9 @@ local Version = GetAddOnMetadata(AddOn, "Version")
 local Authors = {"StormFX", "|cff999999Craygz|r"}
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_Gears",
-	"https://www.wowace.com/projects/masque-gears",
 	"https://www.curseforge.com/wow/addons/masque-gears",
+	"https://addons.wago.io/addons/masque-gears",
+	"https://www.wowace.com/projects/masque-gears",
 	"https://www.wowinterface.com/downloads/info8918",
 }
 
