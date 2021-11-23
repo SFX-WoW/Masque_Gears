@@ -1,0 +1,28 @@
+## Interface: 20502
+
+## Title: Masque: Gears
+## Notes: Gears skins for Masque.
+## Notes-deDE: Gears-Skin für Masque.
+## Notes-esMX: Skins Gears para Masque.
+## Notes-esES: Skins Gears para Masque.
+## Notes-frFR: Skins de Gears pour Masque.
+## Notes-itIT: Skins Gears per Masque.
+## Notes-ruRU: Скин Gears для Masque.
+## Notes-zhTW: Masque的Gears皮膚。
+
+## Version: @project-version@
+## Author: StormFX
+## Dependencies: Masque
+
+## X-Website: https://github.com/SFX-WoW/Masque_Gears
+## X-Category: Interface Enhancements
+## X-Credits: Craygz, Xuerian
+## X-Curse-Project-ID: 13596
+## X-Wago-ID: RqGZo2Nd
+## X-WoWI-ID: 8918
+
+# Locales
+Locales.lua
+
+# Skins
+Skins.lua
