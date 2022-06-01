@@ -1,7 +1,7 @@
 --[[
 
 	This file is part of 'Masque: Gears', an add-on for World of Warcraft. For bug reports,
-	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Gears.
+	documentation and license information, please visit https://github.com/SFX-WoW/Masque_Gears.
 
 	* File...: Locales.lua
 	* Author.: StormFX
