@@ -29,7 +29,6 @@ local Websites = {
 	"https://github.com/SFX-WoW/Masque_Gears",
 	"https://www.curseforge.com/wow/addons/masque-gears",
 	"https://addons.wago.io/addons/masque-gears",
-	"https://www.wowace.com/projects/masque-gears",
 	"https://www.wowinterface.com/downloads/info8918",
 }
 
@@ -38,7 +37,7 @@ local Websites = {
 ---
 
 MSQ:AddSkin("Gears", {
-	API_VERSION = 90002,
+	API_VERSION = 100000,
 	Shape = "Circle",
 
 	-- Info
@@ -54,8 +53,11 @@ MSQ:AddSkin("Gears", {
 	-- Skin
 	Mask = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Mask]],
+		WrapH = "CLAMPTOBLACKADDITIVE",
+		WrapV = "CLAMPTOBLACKADDITIVE",
 		Width = 36,
 		Height = 36,
+		Anchor = "Icon",
 		Point = "CENTER",
 		RelPoint = "CENTER",
 		OffsetX = 0,
@@ -65,7 +67,7 @@ MSQ:AddSkin("Gears", {
 	Backdrop = {
 		Texture = [[Interface\AddOns\Masque\Textures\Backdrop\Action]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {1, 1, 1, 1},
+		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "BACKGROUND",
 		DrawLevel = -1,
@@ -75,13 +77,13 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		UseMask = true,
-		-- UseColor = nil,
 		-- SetAllPoints = nil,
+		-- UseColor = nil,
+		UseMask = true,
 		Item = {
 			Texture = [[Interface\AddOns\Masque\Textures\Backdrop\Item]],
 			-- TexCoords = {0, 1, 0, 1},
-			Color = {1, 1, 1, 1},
+			-- Color = {1, 1, 1, 1},
 			BlendMode = "BLEND",
 			DrawLayer = "BACKGROUND",
 			DrawLevel = -1,
@@ -91,14 +93,14 @@ MSQ:AddSkin("Gears", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0,
-			UseMask = true,
-			-- UseColor = nil,
 			-- SetAllPoints = nil,
+			-- UseColor = nil,
+			UseMask = true,
 		},
 		Pet = {
 			Texture = [[Interface\AddOns\Masque\Textures\Backdrop\Pet]],
 			-- TexCoords = {0, 1, 0, 1},
-			Color = {1, 1, 1, 1},
+			-- Color = {1, 1, 1, 1},
 			BlendMode = "BLEND",
 			DrawLayer = "BACKGROUND",
 			DrawLevel = -1,
@@ -108,9 +110,9 @@ MSQ:AddSkin("Gears", {
 			RelPoint = "CENTER",
 			OffsetX = 0,
 			OffsetY = 0,
-			UseMask = true,
-			-- UseColor = nil,
 			-- SetAllPoints = nil,
+			-- UseColor = nil,
+			UseMask = true,
 		},
 	},
 	Icon = {
@@ -123,8 +125,8 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		UseMask = true,
 		-- SetAllPoints = nil,
+		UseMask = true,
 	},
 	Shadow = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Shadow]],
@@ -157,8 +159,8 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- UseStates = nil,
 		-- SetAllPoints = nil,
+		-- UseStates = nil,
 	},
 	-- Disabled = Default.Disabled,
 	Pushed = {
@@ -174,9 +176,9 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		-- SetAllPoints = nil,
 		UseColor = true,
 		UseMask = true,
-		-- SetAllPoints = nil,
 	},
 	Flash = {
 		-- Texture = [[Interface\Buttons\UI-QuickslotRed]],
@@ -191,38 +193,41 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
+		-- SetAllPoints = nil,
 		UseColor = true,
 		UseMask = true,
-		-- SetAllPoints = nil,
 	},
 	HotKey = {
 		JustifyH = "CENTER",
 		JustifyV = "MIDDLE",
 		DrawLayer = "OVERLAY",
-		Width = 40,
-		Height = 10,
+		Width = 0,
+		Height = 0,
+		Anchor = "Icon",
 		Point = "TOP",
 		RelPoint = "TOP",
 		OffsetX = 0,
-		OffsetY = 0,
+		OffsetY = 5,
 	},
 	Count = {
 		JustifyH = "RIGHT",
 		JustifyV = "MIDDLE",
 		DrawLayer = "OVERLAY",
-		Width = 40,
-		Height = 10,
+		Width = 0,
+		Height = 0,
+		Anchor = "Icon",
 		Point = "BOTTOMRIGHT",
 		RelPoint = "BOTTOMRIGHT",
-		OffsetX = 0,
+		OffsetX = 2,
 		OffsetY = -2,
 	},
 	Duration = {
 		JustifyH = "CENTER",
 		JustifyV = "MIDDLE",
 		DrawLayer = "OVERLAY",
-		Width = 40,
-		Height = 10,
+		Width = 0,
+		Height = 0,
+		Anchor = "Icon",
 		Point = "TOP",
 		RelPoint = "BOTTOM",
 		OffsetX = 0,
@@ -242,6 +247,18 @@ MSQ:AddSkin("Gears", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- SetAllPoints = nil,
+	},
+	Name = {
+		JustifyH = "CENTER",
+		JustifyV = "MIDDLE",
+		DrawLayer = "OVERLAY",
+		Width = 0,
+		Height = 0,
+		Anchor = "Icon",
+		Point = "BOTTOM",
+		RelPoint = "BOTTOM",
+		OffsetX = 0,
+		OffsetY = -5,
 	},
 	Border = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
@@ -318,22 +335,9 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-	IconOverlay = {
-		-- Atlas = "AzeriteIconFrame",
-		-- Color = {1, 1, 1, 1},
-		BlendMode = "BLEND",
-		DrawLayer = "OVERLAY",
-		DrawLevel = 1,
-		Width = 26,
-		Height = 26,
-		Point = "CENTER",
-		RelPoint = "CENTER",
-		OffsetX = 0,
-		OffsetY = 0,
-		-- SetAllPoints = nil,
-	},
 	NewAction = {
 		-- Atlas = "bags-newitem",
+		-- UseAtlasSize = false,
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
 		Color = {1, 1, 0.6, 1},
 		BlendMode = "ADD",
@@ -349,6 +353,7 @@ MSQ:AddSkin("Gears", {
 	},
 	SpellHighlight = {
 		-- Atlas = "bags-newitem",
+		-- UseAtlasSize = false,
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
 		Color = {1, 1, 0.6, 1},
 		BlendMode = "ADD",
@@ -377,8 +382,24 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	IconOverlay = {
+		Atlas = "AzeriteIconFrame",
+		UseAtlasSize = false,
+		-- Color = {1, 1, 1, 1},
+		BlendMode = "BLEND",
+		DrawLayer = "OVERLAY",
+		DrawLevel = 1,
+		Width = 26,
+		Height = 26,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
+	},
 	UpgradeIcon = {
 		Atlas = "bags-greenarrow",
+		UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -391,14 +412,28 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-	NewItem = {
-		-- Atlas = "bags-glow-white",
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
-		-- TexCoords = {0, 1, 0, 1},
+	IconOverlay2 = {
+		Atlas = "ConduitIconFrame-Corners",
+		UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
-		BlendMode = "ADD",
-		DrawLayer = "BORDER",
-		DrawLevel = 0,
+		BlendMode = "BLEND",
+		DrawLayer = "OVERLAY",
+		DrawLevel = 2,
+		Width = 26,
+		Height = 26,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
+	},
+	QuestBorder = {
+		Border = [[Interface\AddOns\Masque_Gears\Textures\Quest]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
+		Color = {1, 0.8, 0, 1},
+		BlendMode = "BLEND",
+		DrawLayer = "OVERLAY",
+		DrawLevel = 2,
 		Width = 40,
 		Height = 40,
 		Point = "CENTER",
@@ -407,13 +442,15 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-	QuestBorder = {
-		Border = [[Interface\AddOns\Masque_Gears\Textures\Border]],
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Quest]],
-		Color = {1, 0.8, 0, 1},
-		BlendMode = "BLEND",
-		DrawLayer = "OVERLAY",
-		DrawLevel = 2,
+	NewItem = {
+		-- Atlas = "bags-glow-white",
+		-- UseAtlasSize = true,
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
+		-- TexCoords = {0, 1, 0, 1},
+		-- Color = {1, 1, 1, 1},
+		BlendMode = "ADD",
+		DrawLayer = "BORDER",
+		DrawLevel = 0,
 		Width = 40,
 		Height = 40,
 		Point = "CENTER",
@@ -435,8 +472,8 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		UseColor = true,
 		-- SetAllPoints = true,
+		UseColor = true,
 	},
 	ContextOverlay = {
 		-- Texture = nil,
@@ -451,11 +488,12 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		UseColor = true,
 		-- SetAllPoints = true,
+		UseColor = true,
 	},
 	JunkIcon = {
 		Atlas = "bags-junkcoin",
+		UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -467,17 +505,6 @@ MSQ:AddSkin("Gears", {
 		OffsetX = 6,
 		OffsetY = 0,
 		-- SetAllPoints = nil,
-	},
-	Name = {
-		JustifyH = "CENTER",
-		JustifyV = "MIDDLE",
-		DrawLayer = "OVERLAY",
-		Width = 40,
-		Height = 10,
-		Point = "BOTTOM",
-		RelPoint = "BOTTOM",
-		OffsetX = 0,
-		OffsetY = -2,
 	},
 	Highlight = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
@@ -492,8 +519,8 @@ MSQ:AddSkin("Gears", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- UseColor = nil,
 		-- SetAllPoints = nil,
+		-- UseColor = nil,
 	},
 	AutoCastShine = {
 		Width = 24,
@@ -533,12 +560,12 @@ MSQ:AddSkin("Gears", {
 MSQ:AddSkin("Gears - Classic", {
 	Template = "Gears",
 
+	-- Info
+	Description = L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."],
+
 	-- UI
 	Title = "Classic",
 	Order = 2,
-
-	-- Info
-	Description = L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."],
 
 	-- Skin
 	Normal = {
@@ -557,8 +584,8 @@ MSQ:AddSkin("Gears - Classic", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- UseStates = nil,
 		-- SetAllPoints = nil,
+		-- UseStates = nil,
 	},
 })
 
@@ -569,13 +596,13 @@ MSQ:AddSkin("Gears - Classic", {
 MSQ:AddSkin("Gears - Dark", {
 	Template = "Gears",
 
-	-- UI
-	Title = "Dark",
-	Order = 3,
-
 	-- Info
 	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Xuerian|r"},
 	Description = L["An alternate version of Gears based the original Sprockets - Dark skin by Craygz and Xuerian."],
+
+	-- UI
+	Title = "Dark",
+	Order = 3,
 
 	-- Skin
 	Normal = {
@@ -594,8 +621,8 @@ MSQ:AddSkin("Gears - Dark", {
 		RelPoint = "CENTER",
 		OffsetX = 0,
 		OffsetY = 0,
-		-- UseStates = nil,
 		-- SetAllPoints = nil,
+		-- UseStates = nil,
 	},
 })
 
@@ -606,18 +633,18 @@ MSQ:AddSkin("Gears - Dark", {
 MSQ:AddSkin("Gears - Sparks", {
 	Template = "Gears",
 
+	-- Info
+	Description = L["An alternate version of Gears with Sparks instead of a Gloss."],
+
 	-- UI
 	Title = "Sparks",
 	Order = 4,
-
-	-- Info
-	Description = L["An alternate version of Gears with Sparks instead of a Gloss."],
 
 	-- Skin
 	Gloss = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {1, 1, 1, 1},
+		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
@@ -638,18 +665,18 @@ MSQ:AddSkin("Gears - Sparks", {
 MSQ:AddSkin("Gears - Sparks Dark", {
 	Template = "Gears - Dark",
 
+	-- Info
+	Description = L["An alternate version of Gears - Dark with Sparks instead of a Gloss."],
+
 	-- UI
 	Title = "Sparks Dark",
 	Order = 5,
-
-	-- Info
-	Description = L["An alternate version of Gears - Dark with Sparks instead of a Gloss."],
 
 	-- Skin
 	Gloss = {
 		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks]],
 		-- TexCoords = {0, 1, 0, 1},
-		Color = {1, 1, 1, 1},
+		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
 		DrawLevel = 0,
