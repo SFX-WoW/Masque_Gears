@@ -1,9 +1,7 @@
-## 10.0.0
+## 10.0.1
 
 ### Release Notes
 
-- Removed the _TBC Classic_ ToC file.
-- Updated the `Interface` version for _Retail_ to `100000`.
-- Updated the skins for Masque 10.0.0.
+- Fixed an issue that allowed the `HotKey`, `Duration` and `Name` text to extend beyond the button.
 
 [Release History](https://github.com/SFX-WoW/Masque_Gears/wiki/History)
