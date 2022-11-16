@@ -16,11 +16,15 @@ if not MSQ then return end
 local AddOn, Core = ...
 
 ----------------------------------------
--- Locals
+-- Internal
 ---
 
--- Locale
 local L = Core.Locale
+
+----------------------------------------
+-- Local
+---
+
 local API_VERSION = 100000
 
 -- Skin Info
@@ -42,9 +46,9 @@ MSQ:AddSkin("Gears", {
 	Shape = "Circle",
 
 	-- Info
+	Authors = Authors,
 	Description = L["A metallic gear skin based on the original Sprockets by Craygz."],
 	Version = Version,
-	Authors = Authors,
 	Websites = Websites,
 
 	-- UI
@@ -550,6 +554,8 @@ MSQ:AddSkin("Gears", {
 	},
 	Cooldown = {
         Texture = [[Interface\AddOns\Masque_Gears\Textures\Mask]],
+		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
+		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Color = {0, 0, 0, 0.7},
 		Width = 32,
 		Height = 32,
@@ -560,6 +566,8 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
+		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
+		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Width = 22,
 		Height = 22,
 		Point = "CENTER",
@@ -575,14 +583,20 @@ MSQ:AddSkin("Gears", {
 ---
 
 MSQ:AddSkin("Gears - Classic", {
+	-- API_VERSION = Template.API_VERSION,
+	-- Shape = Template.Shape,
 	Template = "Gears",
 
 	-- Info
+	-- Authors = Template.Authors,
 	Description = L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."],
+	-- Version = Template.Version,
+	-- Websites = Template.Websites,
 
 	-- UI
-	Title = "Classic",
+	-- Group = Template.Group,
 	Order = 2,
+	Title = "Classic",
 
 	-- Skin
 	Normal = {
@@ -611,15 +625,20 @@ MSQ:AddSkin("Gears - Classic", {
 ---
 
 MSQ:AddSkin("Gears - Dark", {
+	-- API_VERSION = Template.API_VERSION,
+	-- Shape = Template.Shape,
 	Template = "Gears",
 
 	-- Info
 	Authors = {"StormFX", "|cff999999Craygz|r", "|cff999999Xuerian|r"},
 	Description = L["An alternate version of Gears based the original Sprockets - Dark skin by Craygz and Xuerian."],
+	-- Version = Template.Version,
+	-- Websites = Template.Websites,
 
 	-- UI
-	Title = "Dark",
+	-- Group = Template.Group,
 	Order = 3,
+	Title = "Dark",
 
 	-- Skin
 	Normal = {
@@ -648,14 +667,20 @@ MSQ:AddSkin("Gears - Dark", {
 ---
 
 MSQ:AddSkin("Gears - Sparks", {
+	-- API_VERSION = Template.API_VERSION,
+	-- Shape = Template.Shape,
 	Template = "Gears",
 
 	-- Info
+	-- Authors = Template.Authors,
 	Description = L["An alternate version of Gears with Sparks instead of a Gloss."],
+	-- Version = Template.Version,
+	-- Websites = Template.Websites,
 
 	-- UI
-	Title = "Sparks",
+	-- Group = Template.Group,
 	Order = 4,
+	Title = "Sparks",
 
 	-- Skin
 	Gloss = {
@@ -680,14 +705,20 @@ MSQ:AddSkin("Gears - Sparks", {
 ---
 
 MSQ:AddSkin("Gears - Sparks Dark", {
+	-- API_VERSION = Template.API_VERSION,
+	-- Shape = Template.Shape,
 	Template = "Gears - Dark",
 
 	-- Info
+	-- Authors = Template.Authors,
 	Description = L["An alternate version of Gears - Dark with Sparks instead of a Gloss."],
+	-- Version = Template.Version,
+	-- Websites = Template.Websites,
 
 	-- UI
-	Title = "Sparks Dark",
+	-- Group = Template.Group,
 	Order = 5,
+	Title = "Sparks Dark",
 
 	-- Skin
 	Gloss = {
