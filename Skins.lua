@@ -22,14 +22,14 @@ local AddOn, Core = ...
 local L = Core.Locale
 
 ----------------------------------------
--- Local
+-- Locals
 ---
 
 local API_VERSION = 100005
 
 -- Skin Info
-local Version = GetAddOnMetadata(AddOn, "Version")
 local Authors = {"StormFX", "|cff999999Craygz|r"}
+local Version = "@project-version@"
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_Gears",
 	"https://www.curseforge.com/wow/addons/masque-gears",
