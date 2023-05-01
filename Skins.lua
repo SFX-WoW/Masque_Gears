@@ -57,7 +57,7 @@ MSQ:AddSkin("Gears", {
 
 	-- Skin
 	Mask = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Mask]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Mask]],
 		WrapH = "CLAMPTOBLACKADDITIVE",
 		WrapV = "CLAMPTOBLACKADDITIVE",
 		Width = 36,
@@ -138,7 +138,7 @@ MSQ:AddSkin("Gears", {
 	},
 	SlotIcon = "Icon",
 	Shadow = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Shadow]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Shadow]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0, 0, 0.8},
 		BlendMode = "BLEND",
@@ -153,10 +153,10 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Base\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
@@ -243,7 +243,7 @@ MSQ:AddSkin("Gears", {
 		OffsetY = -3,
 	},
 	Checked = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
@@ -258,7 +258,7 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	SlotHighlight = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Glow]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.8},
 		BlendMode = "ADD",
@@ -285,7 +285,7 @@ MSQ:AddSkin("Gears", {
 		OffsetY = -5,
 	},
 	Border = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
@@ -303,7 +303,7 @@ MSQ:AddSkin("Gears", {
 	EnchantBorder = "Border",
 	IconBorder = "Border",
 	Gloss = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Gloss]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Gloss]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.5},
 		BlendMode = "ADD",
@@ -320,7 +320,7 @@ MSQ:AddSkin("Gears", {
 	NewAction = {
 		-- Atlas = "bags-newitem",
 		-- UseAtlasSize = false,
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Glow]],
 		Color = {1, 1, 0.6, 1},
 		BlendMode = "ADD",
 		DrawLayer = "OVERLAY",
@@ -335,7 +335,7 @@ MSQ:AddSkin("Gears", {
 	},
 	SpellHighlight = "NewAction",
 	AutoCastable = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 0.9, 0, 1},
 		BlendMode = "BLEND",
@@ -395,8 +395,8 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	QuestBorder = {
-		Border = [[Interface\AddOns\Masque_Gears\Textures\Quest]],
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
+		Border = [[Interface\AddOns\Masque_Gears\Textures\Base\Quest]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Border]],
 		Color = {1, 0.8, 0, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -412,7 +412,7 @@ MSQ:AddSkin("Gears", {
 	NewItem = {
 		-- Atlas = "bags-glow-white",
 		-- UseAtlasSize = true,
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Glow]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Glow]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "ADD",
@@ -459,7 +459,7 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	Highlight = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.5},
 		BlendMode = "ADD",
@@ -484,7 +484,7 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	Cooldown = {
-        Texture = [[Interface\AddOns\Masque_Gears\Textures\Mask]],
+        Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Mask]],
 		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
 		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Color = {0, 0, 0, 0.7},
@@ -536,10 +536,10 @@ MSQ:AddSkin("Gears - Classic", {
 	-- SlotIcon = Template.SlotIcon,
 	-- Shadow = Template.Shadow,
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0.9, 0.9, 0.75, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Base\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
@@ -612,10 +612,10 @@ MSQ:AddSkin("Gears - Dark", {
 	-- SlotIcon = Template.SlotIcon,
 	-- Shadow = Template.Shadow,
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Dark]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Dark\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Normal]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Gears\Textures\Dark\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		-- EmptyColor = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
@@ -688,7 +688,7 @@ MSQ:AddSkin("Gears - Sparks", {
 	-- SlotIcon = Template.SlotIcon,
 	-- Shadow = Template.Shadow,
 	Gloss = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks\Gloss]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
@@ -760,7 +760,7 @@ MSQ:AddSkin("Gears - Sparks Dark", {
 	-- SlotIcon = Template.SlotIcon,
 	-- Shadow = Template.Shadow,
 	Gloss = {
-		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks]],
+		Texture = [[Interface\AddOns\Masque_Gears\Textures\Sparks\Gloss]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
