@@ -1,7 +1,11 @@
-## 10.0.7
+## 10.1.0
 
 ### Release Notes
 
-- Updated the `Interface` version for **Retail** to `100007`. (#33)
+- Added an `IconTexture` for the **AddOns** menu. (#35)
+- Updated the `API_VERSION` to `100100`.
+- Updated the folder structure.
+- Updated the `Interface` version for **Retail** to `100100`. (#34)
+- Updated the `X-Discord` ToC entry.
 
 [Release History](https://github.com/SFX-WoW/Masque_Gears/wiki/History)
