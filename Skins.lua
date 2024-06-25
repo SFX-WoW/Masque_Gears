@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 100105
+local API_VERSION = 100207
 
 -- Skin Info
 local Authors = {"StormFX", "|cff999999Craygz|r"}
@@ -506,6 +506,10 @@ MSQ:AddSkin("Gears", {
 		OffsetX = 0,
 		OffsetY = 0,
 		-- SetAllPoints = nil,
+	},
+	SpellAlert = {
+		Height = 30,
+		Width = 30,
 	},
 })
 
