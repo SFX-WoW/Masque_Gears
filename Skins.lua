@@ -483,13 +483,14 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	-- [ Cooldowns ]
 	Cooldown = {
-        Texture = [[Interface\AddOns\Masque_Gears\Textures\Base\Mask]],
-		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
-		-- PulseTexture = [[Interface\Cooldown\star4]],
+		Texture = [[Interface\AddOns\Masque\Textures\Circle\Mask]],
+		EdgeTexture = [[Interface\AddOns\Masque\Textures\Square\Edge]],
+		PulseTexture = [[Interface\Cooldown\star4]],
 		Color = {0, 0, 0, 0.7},
-		Width = 32,
-		Height = 32,
+		Width = 28,
+		Height = 28,
 		Point = "CENTER",
 		RelPoint = "CENTER",
 		OffsetX = 0,
@@ -497,8 +498,8 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
-		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
-		-- PulseTexture = [[Interface\Cooldown\star4]],
+		EdgeTexture = [[Interface\AddOns\Masque\Textures\Square\Edge]],
+		PulseTexture = [[Interface\Cooldown\star4]],
 		Width = 22,
 		Height = 22,
 		Point = "CENTER",
@@ -507,6 +508,7 @@ MSQ:AddSkin("Gears", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	-- [ SpellAlert ]
 	SpellAlert = {
 		Height = 30,
 		Width = 30,
