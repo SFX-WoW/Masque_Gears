@@ -548,6 +548,14 @@ MSQ:AddSkin("Gears", {
 	SpellAlert = {
 		Height = 30,
 		Width = 30,
+		Classic = {
+			Height = 24,
+			Width = 24,
+		},
+		Thin = {
+			Height = 20,
+			Width = 20,
+		},
 	},
 })
 
