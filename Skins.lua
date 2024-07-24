@@ -552,6 +552,10 @@ MSQ:AddSkin("Gears", {
 			Height = 24,
 			Width = 24,
 		},
+		Modern = {
+			Height = 24,
+			Width = 24,
+		},
 		Thin = {
 			Height = 20,
 			Width = 20,
