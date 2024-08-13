@@ -1,9 +1,7 @@
-## 11.0.0
+## 11.0.1
 
 ### Release Notes
 
-- Added support for **Masque**'s new **Modern** spell alerts. (#55)
-- Updated the `Interface` version for **Retail** to `110000`. (#56)
-- Updated the `API_VERSION` to `110000`.
+- Updated the `Interface` version for **Retail** to `110002`. (#57)
 
 [Release History](https://github.com/SFX-WoW/Masque_Gears/wiki/History)
