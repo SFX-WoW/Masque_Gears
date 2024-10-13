@@ -125,8 +125,6 @@ MSQ:AddSkin("Gears", {
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
-		DrawLayer = "BACKGROUND",
-		DrawLevel = 0,
 		Width = 30,
 		Height = 30,
 		Point = "CENTER",
