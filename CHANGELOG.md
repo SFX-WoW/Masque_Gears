@@ -1,9 +1,9 @@
-## 11.0.2
+## 11.1.0
 
 ### Release Notes
 
-- Added support for **The War Within** `11.0.5`. (#58)
-- Added support for **Cataclysm Classic** `4.4.1`.. (#58)
-- Updated the `Interface` version for **Classic Era** to `11504`. (#58)
+- Updated the `Interface` version for **The War Within** to `110100`. (#59)
+- Updated the `Interface` version for **Cataclysm Classic** to `40402`. (#59)
+- Updated the `Interface` version for **Classic Era** to `11506`. (#59)
 
 [Release History](https://github.com/SFX-WoW/Masque_Gears/wiki/History)
