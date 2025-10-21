@@ -4,6 +4,7 @@
 ## Title: Masque: Gears
 ## Version: @project-version@
 
+## Category: Masque
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_Gears\Textures\Icon
 
