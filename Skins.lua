@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 110107
+local API_VERSION = 110207
 
 -- Skin Info
 local Authors = {"StormFX", "|cff999999Craygz|r"}
@@ -542,10 +542,14 @@ MSQ:AddSkin("Gears", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = "Cooldown",
-	-- [ SpellAlert ]
+	-- [ SpellAlerts ]
 	SpellAlert = {
 		Height = 30,
 		Width = 30,
+		AltGlow = {
+			Height = 32,
+			Width = 32,
+		},
 		Classic = {
 			Height = 24,
 			Width = 24,
@@ -554,10 +558,14 @@ MSQ:AddSkin("Gears", {
 			Height = 24,
 			Width = 24,
 		},
-		Thin = {
-			Height = 20,
-			Width = 20,
+		["Modern-Lite"] = {
+			Height = 23,
+			Width = 23,
 		},
+	},
+	AssistedCombatHighlight = {
+		Width = 32,
+		Height = 32,
 	},
 })
 
@@ -639,6 +647,8 @@ MSQ:AddSkin("Gears - Classic", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	-- SpellAlert = Template.SpellAlert,
+	-- AssistedCombatHighlight = Template.AssistedCombatHighlight,
 })
 
 ----------------------------------------
@@ -719,6 +729,8 @@ MSQ:AddSkin("Gears - Dark", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	-- SpellAlert = Template.SpellAlert,
+	-- AssistedCombatHighlight = Template.AssistedCombatHighlight,
 })
 
 ----------------------------------------
@@ -795,6 +807,8 @@ MSQ:AddSkin("Gears - Sparks", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	-- SpellAlert = Template.SpellAlert,
+	-- AssistedCombatHighlight = Template.AssistedCombatHighlight,
 })
 
 ----------------------------------------
@@ -871,4 +885,6 @@ MSQ:AddSkin("Gears - Sparks Dark", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	-- SpellAlert = Template.SpellAlert,
+	-- AssistedCombatHighlight = Template.AssistedCombatHighlight,
 })
