@@ -52,5 +52,10 @@ elseif Locale == "ruRU" then
 	L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."] = "Альтернативная версия Gears, имитирующая оригинальный скин Sprockets от Craygz."
 	L["An alternate version of Gears with Sparks instead of a Gloss."] = "Альтернативная версия Gears с искрами вместо блеска."
 --elseif Locale == "zhCN" then
---elseif Locale == "zhTW" then
+elseif Locale == "zhTW" then
+	L["A metallic gear skin based on the original Sprockets by Craygz."] = "一款基於Craygz原版Sprockets的金屬齒輪外觀。"
+	L["An alternate version of Gears - Dark with Sparks instead of a Gloss."] = "這是另一個版本 - 暗色並用火花代替了光澤。"
+	L["An alternate version of Gears based the original Sprockets - Dark skin by Craygz and Xuerian."] = "另一個版本基於原版 Sprockets - Dark 外觀，由 Craygz 和 Xuerian 製作。"
+	L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."] = "另一個版本模仿原版 Sprockets 外觀，由 Craygz 製作。"
+	L["An alternate version of Gears with Sparks instead of a Gloss."] = "這是另一種版本，但使用火花代替光澤。"
 end
