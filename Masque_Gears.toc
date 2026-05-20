@@ -14,8 +14,9 @@
 ## Notes-esES: Skins Gears para Masque.
 ## Notes-frFR: Skins de Gears pour Masque.
 ## Notes-itIT: Skins Gears per Masque.
+## Notes-ptBR: Aparências Gears para o Masque.
 ## Notes-ruRU: Скин Gears для Masque.
-## Notes-zhTW: Masque的Gears皮膚。
+## Notes-zhTW: Masque的Gears外觀。
 
 ## X-Category: Interface Enhancements
 ## X-Credits: Craygz, Xuerian
