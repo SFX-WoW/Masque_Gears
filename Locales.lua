@@ -44,7 +44,12 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "frFR" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
---elseif Locale == "ptBR" then
+elseif Locale == "ptBR" then
+	L["A metallic gear skin based on the original Sprockets by Craygz."] = "Uma aparência de engrenagem metálica baseada na Sprockets original de Craygz."
+	L["An alternate version of Gears - Dark with Sparks instead of a Gloss."] = "Uma versão alternativa de Gears - Escura com Faíscas em vez de Brilho."
+	L["An alternate version of Gears based the original Sprockets - Dark skin by Craygz and Xuerian."] = "Uma versão alternativa de Gears baseada na aparência original Sprockets - Escura de Craygz e Xuerian."
+	L["An alternate version of Gears that mimics the original Sprockets skin by Craygz."] = "Uma versão alternativa de Gears que imita a aparência original Sprockets de Craygz."
+	L["An alternate version of Gears with Sparks instead of a Gloss."] = "Uma versão alternativa de Gears com Faíscas em vez de Brilho."
 elseif Locale == "ruRU" then
 	L["A metallic gear skin based on the original Sprockets by Craygz."] = "Металлический скин шестерёнок, основанный на оригинальных Sprockets от Craygz."
 	L["An alternate version of Gears - Dark with Sparks instead of a Gloss."] = "Альтернативная версия Gears — темная с искрами вместо блеска."
