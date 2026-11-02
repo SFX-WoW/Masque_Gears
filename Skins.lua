@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 120000
+local API_VERSION = 120100
 
 -- Skin Info
 local Authors = {"StormFX", "|cff999999Craygz|r"}
@@ -229,19 +229,17 @@ Masque:AddSkin("Gears", {
 		OffsetX = 2,
 		OffsetY = -2,
 	},
-	-- [ AutoCastShine (Classic) ]
-	AutoCastable = {
-		Texture = PATH_BORDER,
-		Color = {1, 0.9, 0, 1},
-		Width = 40,
-		Height = 40,
+	-- [ AutoCastOverlay ]
+	AutoCast_Frame = {
+		Width = 37,
+		Height = 37,
+		Classic = {
+			Width = 24,
+			Height = 24,
+			OffsetX = 1,
+			OffsetY = -1,
+		},
 	},
-	AutoCastShine = {
-		Width = 24,
-		Height = 24,
-	},
-	-- [ AutoCastOverlay (Retail) ]
-	-- AutoCast_Frame = Default.AutoCast_Frame,
 	AutoCast_Shine = {
 		Atlas = "UI-HUD-ActionBar-PetAutoCast-Ants",
 		Width = 44, -- 41
@@ -256,8 +254,16 @@ Masque:AddSkin("Gears", {
 		Atlas = "UI-HUD-ActionBar-PetAutoCast-Corners",
 		Width = 34,
 		Height = 34,
+		Classic = {
+			Texture = PATH_BORDER,
+			Color = {1, 0.9, 0, 1},
+			Width = 40,
+			Height = 40,
+			OffsetX = -1,
+			OffsetY = 1,
+		},
 	},
-	-- [ Cooldowns ]
+	-- [ Cooldown ]
 	Cooldown = {
 		Texture = [[Interface\AddOns\Masque\Textures\Circle\Mask]],
 		EdgeTexture = [[Interface\AddOns\Masque\Textures\Square\Edge]],
@@ -267,7 +273,7 @@ Masque:AddSkin("Gears", {
 	},
 	CooldownLoC = "Cooldown",
 	ChargeCooldown = "Cooldown",
-	-- [ SpellAlerts ]
+	-- [ SpellAlert ]
 	SpellAlert = {
 		Height = 30,
 		Width = 30,
